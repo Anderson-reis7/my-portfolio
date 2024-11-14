@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <div>
       <div>
-        <Logo />
+        <Logo size={144}/>
       </div>
       <div>Copyright © 2024. Todos os direitos reservados</div>
     </div>

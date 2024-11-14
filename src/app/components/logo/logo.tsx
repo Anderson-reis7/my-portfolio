@@ -1,14 +1,17 @@
 import Image from "next/image";
 
-export function Logo() {
+interface LogoProps {
+  size: number;
+}
+
+export function Logo({ size }: LogoProps) {
   return (
     <Image
-      className="dark:invert"
-      src="/next.svg"
-      alt="Next.js logo"
-      width={160}
-      height={28}
-      priority
+      src={"/logo.svg"}
+      alt="logo"
+      width={size}
+      height={size / 4}
+      quality={100}
     />
   );
 }

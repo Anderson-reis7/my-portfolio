@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="pl-6 pr-3 gap-8 flex justify-center items-start flex-col">
       <header className="flex flex-col self-center items-center p-10">
-        <Logo />
+        <Logo size={200} />
         <Header />
       </header>
       <main className="flex flex-col gap-8">
