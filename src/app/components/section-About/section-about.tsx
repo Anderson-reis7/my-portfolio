@@ -13,8 +13,8 @@ export function SectionAbout() {
           priority
         />
       </div>
-      <div className="text-justify text-lg">
-        <p>
+      <div className="text-justify">
+        <p className=" text-lg font-light">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt,
           aut beatae, laborum quo quidem debitis eaque, facilis iusto explicabo
           dignissimos quae? Dolorum nulla, maiores velit asperiores facilis aut
