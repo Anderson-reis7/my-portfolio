@@ -9,8 +9,8 @@ import { SectionProject } from "./components/section-project/section-projetos";
 
 export default function Home() {
   return (
-    <div>
-      <div className="pl-6 pr-3 gap-8 flex justify-center items-start flex-col">
+    <div className=" overflow-auto scrollbar">
+      <div className="pl-6 pr-3 md:px-14 gap-8 flex justify-center items-start flex-col">
         <header className="flex flex-col self-center items-center p-10">
           <Logo size={200} />
           <Header />

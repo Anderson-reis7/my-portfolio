@@ -24,4 +24,25 @@ body {
   .iconsContact {
     @apply flex gap-7 p-4 rounded-xl bg-[#0a0f26];
   }
+
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #8b5cf6; 
+    border-radius: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #8b5cf6; 
+
+  ::-webkit-scrollbar-track {
+    background-color: #030712; 
+
+  @media (max-width: 768px) {
+    ::-webkit-scrollbar {
+      display: none; 
+  }
 }
