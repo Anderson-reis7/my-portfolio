@@ -6,16 +6,16 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 
 export function SectionHome() {
   return (
-    <section>
+    <section id="home">
       <div className="flex flex-col gap-8">
         <div className="flex gap-1">
-          <span className="font-bold text-xl">Prazer, me chamo</span>
-          <span className="text-violet-500 font-bold text-xl">
+          <span className="font-bold text-xl italic">Prazer, me chamo</span>
+          <span className="text-violet-500 font-bold text-xl italic">
             Anderson Reis.
           </span>
         </div>
         <div className="">
-          <h1 className="text-5xl font-bold">Desenvolvedor Front-end Júnior</h1>
+          <h1 className="text-5xl font-bold italic">Desenvolvedor Front-end Júnior</h1>
         </div>
         <div>
           <button
