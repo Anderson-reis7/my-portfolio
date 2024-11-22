@@ -9,19 +9,19 @@ export function SectionHome() {
     <section id="home">
       <div className="flex flex-col gap-8">
         <div className="flex gap-1">
-          <span className="font-bold text-xl italic">Prazer, me chamo</span>
-          <span className="text-violet-500 font-bold text-xl italic">
+          <span className="font-bold md:text-2xl text-xl italic">Prazer, me chamo</span>
+          <span className="text-violet-500 md:text-2xl font-bold text-xl italic">
             Anderson Reis.
           </span>
         </div>
         <div className="">
-          <h1 className="text-5xl font-bold italic">Desenvolvedor Front-end Júnior</h1>
+          <h1 className="text-5xl md:text-6xl font-bold italic">Desenvolvedor Front-end Júnior</h1>
         </div>
         <div>
           <button
             className={`
-            bg-violet-500 rounded-md font-bold text-base
-            py-3 px-5 cursor-pointer hover:bg-violet-700
+            bg-violet-500 rounded-md font-bold text-base md:px-7 md:py-5
+            py-3 px-5 cursor-pointer transition duration-500 ease-in-out hover:bg-violet-900
             `}
           >
             Download CV

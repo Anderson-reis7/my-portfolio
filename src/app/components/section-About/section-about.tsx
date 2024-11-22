@@ -1,20 +1,21 @@
+import minhaImagem from "@/app/components/assents/anderson.jpg";
 import Image from "next/image";
 
 export function SectionAbout() {
   return (
-    <section className="flex flex-col gap-8 items-center">
-      <div id="about">
+    <section className="flex flex-col md:max-lg:flex-col lg:max-xl:flex-col md:flex-row gap-8 items-center">
+      <div id="about" className="lg:max-xl:w-[400px] ">
         <Image
-          className="rounded-lg border-solid border-2 border-[#0A0F26]"
-          src="/anderson.jpg"
+          className="md:w-[400px]  relative rounded-lg border-solid border-2 border-[#0A0F26]"
+          src={minhaImagem}
           alt="Next.js logo"
-          width={300}
-          height={300}
-          priority
+          objectFit="cover"
+          
+          
         />
       </div>
-      <div className="text-justify">
-        <p className=" text-lg font-light">
+      <div className=" md:flex md:w-full ">
+        <p className=" md:flex-wrap text-lg md:text-2xl text-neutral-50 font-light">
           Sempre fui fascinado por tecnologia, desde pequeno já explorava
           computadores e celulares, o que despertou minha paixão pela área. Após
           cursar cinco semestres de Licenciatura em Matemática, percebi que não
